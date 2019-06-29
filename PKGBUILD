@@ -1,6 +1,7 @@
 # Maintainer: Adolfo silerio
 # Maintainer: Duvan Felipe Suarez <duvanera@gmail.com>
 # Maintainer: Francisco Javier Ospina <francisco.ospina@gmail.com>
+# Maintainer: Zechariah Thurman get@meongithub zthurman
 
 pkgname=oranchelo-icon-theme
 pkgver=0.7
@@ -9,12 +10,12 @@ pkgdesc='Oranchelo is a flat-design icon theme for XFCE4 based on Super Flat Rem
 arch=(any)
 depends=('git')
 makedepends=('git')
-url='https://github.com/Madh93/oranchelo-icon-theme.git'
+url='https://github.com/OrancheloTeam/oranchelo-icon-theme.git'
 license=('GPL3')
 groups=('gnome' 'xfce')
 conflicts=('oranchelo-icon-theme')
 provides=('oranchelo-icon-theme')
-source=('git+https://github.com/Madh93/oranchelo-icon-theme.git')
+source=('git+https://github.com/OrancheloTeam/oranchelo-icon-theme.git')
 md5sums=('SKIP')
 
 package() {
